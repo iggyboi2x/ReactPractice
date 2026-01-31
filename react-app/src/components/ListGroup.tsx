@@ -11,8 +11,6 @@ function ListGroup({ items, heading, onSelectItem }: Props) {
   //Hook
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
-  //Function Event Handler
-
   return (
     <>
       <h1>{heading}</h1>
