@@ -27,7 +27,24 @@
 
 .card .card-text{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
+    color: black
+    ;
 
 
 }
+
+.student{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    padding: 30px;
+    border: 1px solid
+
+}
+
+.student p{
+
+    margin: 0px;
+
+}
+
