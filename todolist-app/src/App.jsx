@@ -3,11 +3,20 @@ import TodoInput from "./TodoInput.jsx";
 import TodoList from "./TodoList.jsx";
 
 function App() {
-  const [todos, setTodos] = useState([]);
+  const [todoItems, setTodoItems] = useState([]);
+  const addTodo = (newTodo) => {
+    setTodoItems([...todoItems, newTodo]);
+  };
+
+  const deleteTodo = (itemIndex) => {
+    setTodoItems(todoItems.filter((_, index) => index !== itemIndex));
+  };
 
   return (
     <>
-      <h1>Hello World</h1>
+      <h1>Todo List Practice</h1>
+      <TodoInput onAddTodo={addTodo}></TodoInput>
+      <TodoList todoItems={todoItems} onDeleteTodo={deleteTodo}></TodoList>
     </>
   );
 }

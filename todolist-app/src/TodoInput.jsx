@@ -1,24 +1,21 @@
 import { useState } from "react";
 
-function TodoInput(onAddTodo) {
-  const [input, setInput] = useState("");
-
-  const handlesubmit = () => {
-    onAddTodo(input);
-    setInput("");
+function TodoInput({ onAddTodo }) {
+  const [text, setText] = useState("");
+  const handleAddTodo = () => {
+    onAddTodo(text);
+    setText("");
   };
-
   return (
-    <div>
+    <>
       <input
         type="text"
-        value={input}
-        onChange={(e) => setInput(e.target.value)}
-        placeholder="Enter a task"
-      ></input>
-      <button onClick={handlesubmit}>Add</button>
-    </div>
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+      />
+      <button onClick={handleAddTodo}>Add</button>
+    </>
   );
 }
 
-export default Todoinput;
+export default TodoInput;
