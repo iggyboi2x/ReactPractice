@@ -1,11 +1,9 @@
-import Student from "./Student.jsx";
+import UserGreeting from "./conditional-rendering/UserGreeting.jsx";
 
 function App() {
   return (
     <>
-      <Student name="Miguel" age={21} isStudent={true} />
-      <Student name="Aaron" age={20} isStudent={true}></Student>
-      <Student name="Vilgax" age={19} isStudent={true}></Student>
+      <UserGreeting isLoggedIn={false} username="User" />
     </>
   );
 }
