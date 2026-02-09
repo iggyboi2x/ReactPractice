@@ -1,0 +1,42 @@
+.btn{
+    padding: 30px;
+    border-radius: 20%;
+    background-color: azure;
+
+}
+
+.btn:hover{
+
+    background-color: darkblue;
+
+
+}
+body {
+  margin: 0;
+  background-color:darkgray;
+  font-family:monospace;
+  display: flex;
+  justify-content: center;
+
+}
+
+.displayCount{
+    margin-left: 65px;
+    font-size: 20px;
+    width: 100px;
+    padding: 10px;
+    background-color:gray;
+    border-radius: 10px
+}
+.displayCount:hover{
+background-color:aqua;
+}
+
+.btn-div{
+    margin-left: 15px;
+
+}
+.title-div{
+margin-top: 150px;
+
+}
