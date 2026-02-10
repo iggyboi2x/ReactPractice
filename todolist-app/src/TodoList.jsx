@@ -1,12 +1,13 @@
 function ToDoList({ todoItems, onDeleteTodo }) {
   return (
     <>
-      <ul>
+      <ul className="list">
         {todoItems.map((todoItem, index) => (
           <li key={index}>
             {todoItem}
-            {""}
-            <button onClick={() => onDeleteTodo(index)}>X</button>
+            <button className="btn-del" onClick={() => onDeleteTodo(index)}>
+              ❌
+            </button>
           </li>
         ))}
       </ul>

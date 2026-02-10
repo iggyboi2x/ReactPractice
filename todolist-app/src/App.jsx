@@ -1,6 +1,7 @@
 import { useState } from "react";
 import TodoInput from "./TodoInput.jsx";
 import TodoList from "./TodoList.jsx";
+import "./App.css";
 
 function App() {
   const [todoItems, setTodoItems] = useState([]);
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <>
-      <h1>Todo List Practice</h1>
+      <h1 className="title-div">Miggy's To-do List</h1>
       <TodoInput onAddTodo={addTodo}></TodoInput>
       <TodoList todoItems={todoItems} onDeleteTodo={deleteTodo}></TodoList>
     </>

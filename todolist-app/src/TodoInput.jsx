@@ -9,11 +9,14 @@ function TodoInput({ onAddTodo }) {
   return (
     <>
       <input
+        className="input"
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button onClick={handleAddTodo}>Add</button>
+      <button className="btn" onClick={handleAddTodo}>
+        ➕
+      </button>
     </>
   );
 }
