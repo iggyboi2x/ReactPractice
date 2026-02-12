@@ -1,0 +1,18 @@
+body{
+
+display: flex;
+justify-content: center;
+
+}
+
+.Movie-Explorer{
+
+font-family:'Courier New', Courier, monospace
+
+}
+
+.Submit-Form{
+margin-left: 150px;
+margin-bottom: 10px;
+  
+}
