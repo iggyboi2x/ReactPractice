@@ -1,0 +1,20 @@
+
+
+body{
+
+  display:flex;
+    justify-content:center;
+    align-items: center;
+  color:azure;
+  background-color:darkcyan;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+
+}
+
+.title{
+
+  margin-top: 300px;
+
+
+}
