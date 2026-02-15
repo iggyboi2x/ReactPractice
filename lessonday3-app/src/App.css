@@ -1,0 +1,61 @@
+body{
+
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+.counter-txt{
+
+  font-style:italic;
+  color: azure;
+
+
+}
+
+.btns{
+
+  
+  
+
+}
+.increment-btn{
+
+  background: none;
+  border:0;
+
+}
+.increment-btn:hover{
+
+  background-color: green;
+  border:1px solid;
+  border-color: white;
+  
+}
+.decrement-btn{
+
+  background: none;
+  border:0;
+}
+.decrement-btn:hover{
+
+  background-color:red;
+  border:1px solid;
+  border-color: white;
+}
+.reset-btn{
+
+  background: none;
+  border:0;
+
+}
+.reset-btn:hover{
+
+  background-color:palegoldenrod;
+  border:1px solid;
+  border-color: white;
+
+}
