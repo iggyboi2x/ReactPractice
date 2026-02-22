@@ -5,8 +5,11 @@ function App() {
   const [item, setItem] = useState("");
 
   const handleAdd = () => {
-    setList([...list, item]);
-    setItem("");
+    if (item) {
+      setList([...list, item]);
+      setItem("");
+    }
+    return;
   };
 
   const handleDelete = (indexToDelete) => {

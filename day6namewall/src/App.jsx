@@ -22,8 +22,8 @@ function App() {
         onChange={handleChange}
       />
       <button onClick={handleSubmit}>Add</button>
-      {list.map((name, index) => (
-        <h4 key={index}>{name}</h4>
+      {list.map((item, index) => (
+        <h4 key={index}>{item}</h4>
       ))}
     </>
   );
