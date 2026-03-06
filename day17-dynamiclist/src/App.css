@@ -1,0 +1,87 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* dark background */
+  color: #e0e0e0; /* light text */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* App container (form + list) */
+form, ol {
+  background-color: #1e1e1e; /* dark card */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  width: 350px;
+}
+
+/* Input field styling */
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #2c2c2c; /* dark input */
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Input placeholder color */
+input::placeholder {
+  color: #aaa;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+/* Add button */
+form button {
+  background-color: #4caf50;
+  color: white;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Delete button for list items */
+li button {
+  margin-left: 10px;
+  background-color: #f44336;
+  color: white;
+}
+
+li button:hover {
+  background-color: #d32f2f;
+}
+
+/* List items */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 5px;
+  border-bottom: 1px solid #333;
+  font-size: 16px;
+}
+
+/* Last list item no border */
+li:last-child {
+  border-bottom: none;
+}
+
+/* Span and headings */
+span, h1 {
+  font-weight: normal;
+  color: #e0e0e0;
+}
