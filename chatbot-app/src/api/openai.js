@@ -21,7 +21,7 @@ export const getAIResponse = async (userMessage) => {
 
   const data = await response.json();
 
-  // 🔒 SAFETY CHECK
+  
   if (!data.choices) {
     console.error("OpenRouter error:", data);
     return "AI is unavailable right now.";
