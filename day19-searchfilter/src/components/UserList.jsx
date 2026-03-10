@@ -1,10 +1,11 @@
+import { useEffect } from "react";
+import UserCard from "./UserCard.jsx";
+
 function UserList({ users }) {
   return (
     <>
       {users.map((user, index) => (
-        <ul>
-          <li key={user.id} user={user}></li>
-        </ul>
+        <UserCard key={user.id} user={user} />
       ))}
     </>
   );
