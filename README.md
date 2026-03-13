@@ -1,1 +1,1 @@
-Stopping with learning React for a while... I want to focus with making a game in Roblox
+Will stop learning React for a while... I want to focus on learning Roblox Lua.
